@@ -48,7 +48,7 @@ header nav a {
 }
 
 .hero-content {
-  width: 50%;
+  width: 520px;
   max-width: 600px;
 }
 
@@ -80,6 +80,7 @@ header nav a {
    ABOUT SECTION
 ========================= */
 .about {
+   min-width: 1200px;
   display: flex;
   align-items: center;
   padding: 80px 60px;
@@ -143,35 +144,3 @@ footer {
    RESPONSIVE FIX
    (Laptop jaisa hi phone me)
 ========================= */
-@media (max-width: 768px) {
-
-  header {
-    padding: 15px 30px;
-  }
-
-  .hero {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 60px 30px;
-  }
-
-  .hero-content {
-    width: 100%;
-  }
-
-  .hero-content h1 {
-    font-size: 30px;
-  }
-
-  .about {
-    flex-direction: column;
-    text-align: center;
-    padding: 60px 30px;
-  }
-
-  .about-text {
-    margin-left: 0;
-    margin-top: 30px;
-  }
-}
